@@ -61,7 +61,7 @@ class DetailViewController: UIViewController {
         """
         var rating = "unset rating"
         var genre = "Education"
-        init(title: String, subtitle: String = "unset subtitle", image: String = "debugging", description: String = "unset description", rating: String = "unset rating", genre: String = "Education") {
+        init(title: String, subtitle: String = "unset subtitle", image: String = "R", description: String = "unset description", rating: String = "unset rating", genre: String = "Education") {
             self.title = title
             self.subtitle = subtitle
             self.image = image
